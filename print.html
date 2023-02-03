@@ -265,6 +265,36 @@ Deeplang的内存管理系统由三部分组成：</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="凹语言"><a class="header" href="#凹语言">凹语言</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="文言"><a class="header" href="#文言">文言</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="粤语"><a class="header" href="#粤语">粤语</a></h1>
+<p>粤语编程语言(Cantonese)是一门用粤语来与计算机沟通的编程语言, 由一位来自广州的16岁高中生 Stepfen Shawn 开发.</p>
+<h1 id="特性"><a class="header" href="#特性">特性</a></h1>
+<ul>
+<li>图灵完备, 语法灵活丰富</li>
+<li>具有有丰富的内置函数</li>
+<li>可扩展性, 易于与 Python 相互调用</li>
+<li>利用粤语与编程结合的方式, 添加了编程的趣味性</li>
+</ul>
+<p>使用粤语编程语言可以写出优美而又功能强大的代码, 以下为用粤语编程语言编写的翻译器:</p>
+<pre><code>使下 网络请求
+
+讲嘢 : 结束 係 唔啱
+
+落操场玩跑步
+    讲嘢 : |文本| 係 畀你啲嘢(&quot;请输入一段要翻译的文字：&quot;)
+    如果 |文本 系 &quot;E&quot;| 嘅话 =&gt; {
+        讲嘢 : |结束| 係 啱 
+    }
+    |'doctype' ==&gt; 'json', 'type' ==&gt; 'AUTO', 'i' ==&gt; 文本| 埋堆 -&gt; |数据|
+    讲嘢 : |网址| 係 &quot;http://fanyi.youdao.com/translate&quot;
+    收风 -&gt; |网址, data = 数据, json = True| @ |数据|
+    畀我睇下 |身位(数据, 'translateResult', 0, 0, &quot;tgt&quot;)| 点样先?
+玩到 |结束| 为止
+</code></pre>
+<p>目前粤语编程语言依然处于开发和迭代中, 致力成为一门既有艺术性又不失实用性的编程语言!</p>
+<p>官方网站: https://cantonese-community.github.io/<br />
+代码仓库: https://github.com/StepfenShawn/Cantonese</p>
+<p>参考自：<br />
+<a href="https://www.jiqizhixin.com/articles/2021-06-10-3">文言文编程还不够好玩？这里有个16岁高中生开发的粤语编程项目</a><br />
+<a href="https://www.bilibili.com/video/BV1nF411F7ku">用粤语编程写一个翻译器吧!</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zlogo-1"><a class="header" href="#zlogo-1">ZLOGO</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="zlogo-2"><a class="header" href="#zlogo-2">ZLOGO</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="后记"><a class="header" href="#后记">后记</a></h1>
